@@ -116,10 +116,13 @@ input, select, textarea {
 /* Type */
 
     /* change text color */
+	/* change button fonts*/
 	body, input, select, textarea {
 		/*color: rgba(255, 255, 255, 0.55); */
 		color: #2c2c2c;
-		font-family: Arial, Helvetica, sans-serif;
+		/*font-family: Arial, Helvetica, sans-serif; */
+		/*font-family: "Times New Roman", Times, serif; */
+		font-family: "Lucida Console", "Courier New", monospace;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -190,13 +193,13 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-		/* change heading size */
+		/* change heading size and font */
 
 	h1 {
 		font-size: 3.75em;
 		/*font-style: italic; */
 		font-weight: bolder;
-		font-family: "";
+		font-family: "Lucida Console", "Courier New", monospace;
 	}
 
 		h1.major {
