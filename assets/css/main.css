@@ -97,9 +97,11 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	/* Change background color of the whole page(s) */
 	body {
 		/*background: #312450; */
-		background: #1a1a1a 
+		/*background: #1a1a1a  */
+		background: #efeae3;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -207,12 +209,13 @@ input, select, textarea {
 			position: relative;
 			padding-bottom: 0.35em;
 		}
-
+/* Change generic page stuff */
 			h1.major:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				/*background-image: linear-gradient(to right, #5e42a6, #b74e91); */
+				background-image: linear-gradient(to right, #98c1d9, #001d3d);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3275,7 +3278,8 @@ input, select, textarea {
         /* change background color */
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			/*background-color: #261c3e; */
+			background-color: #1a1a1a
 		}
 
 		.wrapper.style1 {
