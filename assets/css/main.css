@@ -163,10 +163,12 @@ input, select, textarea {
 		color: inherit;
 		text-decoration: none;
 	}
-
+        /*change links hover color */
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			/*color: #ffffff; */
+			color:#a6a6a6;
+
 		}
 
 	strong, b {
@@ -198,7 +200,7 @@ input, select, textarea {
 		/* change heading size and font */
 
 	h1 {
-		font-size: 3.75em;
+		font-size: 2.90em;
 		/*font-style: italic; */
 		font-weight: bolder;
 		font-family: "Lucida Console", "Courier New", monospace;
